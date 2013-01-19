@@ -9,12 +9,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nisaacson/jquery-imacros.git"
+  },
   "keywords": [
     "jquery",
     "imacros"
   ],
   "author": "Noah Isaacson",
   "license": "BSD",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "browserify": "~1.17.2",
+    "should": "~1.2.1"
+  }
 }

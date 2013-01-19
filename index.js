@@ -1,7 +1,8 @@
 module.exports = function(inputURL) {
-  if ($) {
+  iimPlay('CODE: CLEAR');
+  if ($ !== undefined) {
     // jquery already loaded
-    return;
+    return true;
   }
   var jqueryURL = inputURL || 'http://code.jquery.com/jquery.min.js'
   var result = loadScriptAtURL(jqueryURL);
