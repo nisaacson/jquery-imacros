@@ -1,0 +1,20 @@
+{
+  "name": "jquery-imacros",
+  "version": "0.0.0",
+  "description": "loads jquery for use in iMacros for Firefox javascript scripts' ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "jquery",
+    "imacros"
+  ],
+  "author": "Noah Isaacson",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
